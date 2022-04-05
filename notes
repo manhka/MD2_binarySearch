@@ -1,0 +1,36 @@
+what?
+-Tìm kiếm nhị phân là một loại thuật toán tìm kiếm nâng cao để tìm và lấy dữ
+liệu từ danh sách các phần tử đã được sắp xếp.
+ Nguyên tắc hoạt động cốt lõi của thuật toán này liên quan
+ đến việc chia đôi dữ liệu trong danh sách cho đến khi giá
+ trị yêu cầu được tìm thấy.
+Tìm kiếm nhị phân thường được gọi là tìm kiếm nửa khoảng hoặc tìm kiếm theo lôgarit .
+
+--------------------------------------------------------------------------------
+How it work?
+-Tìm kiếm nhị phân hoạt động theo các bước sau:
+
+ Xác định phần tử ở giữa của mảng dữ liệu được sắp xếp
+
+ Sau đó, so sánh giá trị cần tìm với phần tử đó
+
+ Nếu giá trị cần tìm nhỏ hơn phần tử giữa, thì quá trình tìm kiếm sẽ phân tích các giá trị
+ phía trên cho phần tử giữa để so sánh và đối sánh
+
+ Trong trường hợp giá trị cần tìm lớn hơn phần tử giữa thì tìm kiếm sẽ phân
+ tích các giá trị thấp hơn cho phần tử giữa để so sánh và đối sánh.
+
+ ---------------------------------------------------------------------
+ why using it?
+ Tìm kiếm nhị phân là một lựa chọn tốt để được sử dụng làm thuật toán tìm kiếm vì những lý do sau đây:
+
+ Tìm kiếm nhị phân hoạt động hiệu quả trên dữ liệu được sắp xếp bất kể kích thước của dữ liệu lớn đến đâu
+
+ Thay vì thực hiện tìm kiếm bằng cách xem qua dữ liệu theo trình tự, thuật toán nhị phân truy cập ngẫu nhiên vào dữ liệu để tìm phần tử cần thiết.
+  Điều này làm cho các chu kỳ tìm kiếm ngắn hơn và chính xác hơn.
+
+ Tìm kiếm nhị phân thực hiện so sánh dữ liệu được sắp xếp dựa trên nguyên tắc sắp xếp hơn là sử dụng so sánh bình đẳng,
+  chậm hơn và chủ yếu là không chính xác.
+
+ Sau mỗi chu kỳ tìm kiếm, thuật toán chia kích thước của mảng thành một nửa,
+  do đó trong lần lặp tiếp theo nó sẽ chỉ hoạt động trong nửa còn lại của mảng
